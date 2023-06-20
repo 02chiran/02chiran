@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <script
+      src="https://kit.fontawesome.com/d173938d1d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+  </div>
+    <!-- top banner-->
+    <div class="top-banner">
+      <div class="conatiner">
+        <div class="small banner-text">
+          📣 welcome →
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <div class="container main-nav flex">
+        <a href="#" class="logo">Portfo<span>lio.</span></a>
+
+        <div class="nav-links " id="nav-links">
+          <ul class="flex">
+            <li><a href="#" class="hover-link">Home</a></li>
+            <li><a href="#" class="hover-link">About</a></li>
+            <li><a href="#" class="hover-link">Servies</a></li>
+            <li><a href="#" class="hover-link">Certificate</a></li>
+            <li><a href="#" class="hover-link">Contact</a></li>
+            <li><a href="images/profile-1.jpeg" dowonlod='cv' class="hover-link primary-button">Download cv</a></li> 
+          </ul>
+        </div>
+        <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container header-section flex">
+        <div class="header-left">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Chiranjit Ray</div>
+          <div class="text-3">And i'm a <span>developer</span></div>
+           <div><a href="#" class="primary-button gs-button">Explore
+            
+           </a></div>
+        </div>
+        <div class="header-right">
+          <img src="images/mk-removebg-preview.png" alt="hero image" />
+        </div>
+      </div>
+    </header>
+    
+
+
+    
+    <!-- about section start -->
+    <section  class=" about ">
+      <div class="container ">
+        <div class="about-title"> <h2 >About Me</h2></div>
+        <div class="about-area flex">
+          <div class=" column about-left ">
+            <img src="images/mk-removebg-preview.png" alt="hero image" />
+          </div>
+          <div class=" about-right">
+              <div> 
+                <div class="text">I'm Chiranjit and i'm a <span>Developer</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius reprehenderit eveniet culpa. Deserunt maiores consectetur libero asperiores alias explicabo quis suscipit accusamus officiis possimus beatae harum numquam rem sit ea laboriosam sint illum corporis porro aliquam, ipsum tenetur, ad illo. Doloribus veniam laborum, modi culpa eius labore doloremque voluptatum enim?</p></div>
+             <div><a href="images/profile-1.jpeg" class="primary-button gs-button">Download CV
+              <i class="fa fa-download"></i>
+             </a></div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="myservices"> 
+
+  </section>
+
+
+    
+     <script>
+      const toggleButton = document.getElementById('nav-toggle');
+      const navLinks=document.getElementById('nav-links');
+
+      toggleButton.addEventListener('click', () =>{
+        navLinks.classList.toggle('active');
+      })
+     </script>
+    </body>
+    </html>
