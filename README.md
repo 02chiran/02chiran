@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Deboleena sen
+- 👋 Hi, I’m Chiranjit Ray
 - 👀 I’m interested in multiple domains 
 - 🌱 I’m currently learning Full stake development
 - 💞️ I’m looking to collaborate on ...
